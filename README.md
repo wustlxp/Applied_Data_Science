@@ -1,2 +1,2 @@
 # Applied_Data_Science
-Repository for Applied Data Science Final Project
+Repository for Final Project of Applied Data Science for Practitioners
