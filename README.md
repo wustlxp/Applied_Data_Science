@@ -23,9 +23,8 @@ Evaluation method: Submissions are evaluated by root mean squared error (RMSE). 
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │   │
-    │   ├── Dictionaries_origin.ipynb  
-    │   │  
-    │   └── Dictionaries_model.ipynb    
+    │   ├── Dictionaries_origin.ipynb  <- Dictionaries for original data set
+    │   └── Dictionaries_model.ipynb   <- Dictionaries for columns appears during the procedure
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
