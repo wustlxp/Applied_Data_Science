@@ -6,6 +6,15 @@ Kaggle: https://www.kaggle.com/c/competitive-data-science-predict-future-sales/d
 
 The main goal of this kaggle competition is to predict the monthly sales for the next month based on the historical daily sales of each store and each product for 34 months.So it's a time-series problem.
 
+Hint: 
+    
+    1. To fully understand the project, please read the Data Analysis section first.
+       path: ...\notebooks\Kaggle Predict Future Sales.ipynb
+    
+    2. This project uses the pipeline approach, which clearly shows all the steps of the model. 
+       For ease of reading, the file shows all the predefined functions at the beginning of pipeline.ipynb.
+       path: ...\src\models\pipeline.ipynb
+
 #### Project difficulties:
 
 Data is scattered in multiple excel files
@@ -20,6 +29,7 @@ Evaluation method: Submissions are evaluated by root mean squared error (RMSE). 
     │   └── raw            <- The original, immutable data dump.
     │
     ├── notebooks          <- Jupyter notebooks. project and data analysis, data cleaning, visualization, and hyperparameters tuning
+    │  └── Kaggle Predict Future Sales.ipynb
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │   │
