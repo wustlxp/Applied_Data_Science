@@ -22,7 +22,8 @@ Predictors are not suitable for direct use and require more feature engineering
 The information brought by the time series should be fully exploited
 Evaluation method: Submissions are evaluated by root mean squared error (RMSE). True target values are clipped into [0,20] range.
 
-
+#### Project Organization
+------------
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
