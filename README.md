@@ -4,7 +4,7 @@
 Predict Future Sales
 Kaggle: https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data
 
-The main goal of this kaggle competition is to predict the monthly sales for the next month based on the historical daily sales of each store and each product for 34 months.So it's a time-series problem.
+The main goal of this kaggle competition is to predict the monthly sales for the next month based on the historical daily sales of each store and each product for 34 months. Therefore, it's a time-series problem.
 
 #### Hint: 
     
