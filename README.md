@@ -57,3 +57,6 @@ Submissions are evaluated by root mean squared error (RMSE). True target values 
     │   │
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+
+
+"The work I submitted represents my work and my work alone.  I abode by the academic integrity policy and I am aware of the consequences associated with engaging in academic misconduct. "
