@@ -4,7 +4,16 @@
 Predict Future Sales
 Kaggle: https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data
 
-The main goal of this kaggle competition is to predict the monthly sales for the next month based on the historical daily sales of each store and each product for 34 months. Therefore, it's a time-series problem.
+The main goal of this kaggle competition is to predict the monthly sales for the next month based on the historical daily sales of each store and each product for 34 months. In other words, we use historical sales to predict future sales. Therefore, it's a time-series problem.
+
+#### Project difficulties:
+
+1. Data is scattered in multiple excel files
+2. Predictors are not suitable for direct use and require more feature engineering
+3. The information brought by the time series should be fully exploited
+
+#### Evaluation method: 
+Submissions are evaluated by root mean squared error (RMSE). True target values are clipped into [0,20] range.
 
 #### Hint: 
     
@@ -15,12 +24,6 @@ The main goal of this kaggle competition is to predict the monthly sales for the
        For ease of reading, the file shows all the predefined functions at the beginning of pipeline.ipynb.
        path: ...\src\models\pipeline.ipynb
 
-#### Project difficulties:
-
-Data is scattered in multiple excel files
-Predictors are not suitable for direct use and require more feature engineering
-The information brought by the time series should be fully exploited
-Evaluation method: Submissions are evaluated by root mean squared error (RMSE). True target values are clipped into [0,20] range.
 
 #### Project Organization
 ------------
